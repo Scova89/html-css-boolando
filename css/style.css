@@ -9,6 +9,8 @@
     margin: auto;
 }
 
+/* box */
+
 .box{
     width: calc(100% / 3 - 10px);
     float: left;
@@ -28,6 +30,58 @@
     right: 0px;
     display: inline;
 }
+
+#box-rosso{
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    background-color: rgb(255, 0, 55);
+    padding: 4px;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    display: inline;
+}
+
+#box-verde{
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    background-color: rgb(41, 139, 70);
+    padding: 4px;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    display: inline;
+}
+
+.didascalie{
+    position: absolute;
+    top: 560px;
+}
+
+#brand{
+    font-size: 11pt;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#prezzi{
+    
+}
+
 
 .img-base{
     object-fit: cover;
