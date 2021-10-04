@@ -4,3 +4,30 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.box{
+    width: calc(100% / 3);
+    float: left;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* ***** debug ***** */
+
+.container.debug{
+    background-color: rgb(46, 187, 187);
+    height: 700px;
+}
+
+.debug .box{
+    height: 250px;
+}
