@@ -17,6 +17,7 @@
     float: left;
     margin: 5px;
     position: relative;
+    margin-bottom: 90px;
 }
 
 
@@ -66,6 +67,19 @@
     display: inline;
 }
 
+#box-verde-left{
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    background-color: rgb(41, 139, 70);
+    padding: 4px;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    display: inline;
+}
 
 /* didascalie sottostanti */
 
