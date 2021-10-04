@@ -9,6 +9,7 @@
     margin: auto;
 }
 
+
 /* box */
 
 .box{
@@ -17,6 +18,9 @@
     margin: 5px;
     position: relative;
 }
+
+
+/* cuore */
 
 #cuore{
     text-align: center;
@@ -30,6 +34,9 @@
     right: 0px;
     display: inline;
 }
+
+
+/* box colorati */
 
 #box-rosso{
     text-align: center;
@@ -59,6 +66,9 @@
     display: inline;
 }
 
+
+/* didascalie sottostanti */
+
 .didascalie{
     position: absolute;
     top: 560px;
@@ -78,10 +88,22 @@ h3{
     font-size: 15px;
 }
 
-#prezzi{
-    
+#sconto{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    color: red;
 }
 
+#intero{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    text-decoration-line: line-through;
+}
+
+
+/* immagini */
 
 .img-base{
     object-fit: cover;
