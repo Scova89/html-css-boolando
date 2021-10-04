@@ -16,6 +16,19 @@
     position: relative;
 }
 
+#cuore{
+    text-align: center;
+    line-height: 40px;
+    font-size: 17pt;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    display: inline;
+}
+
 .img-base{
     object-fit: cover;
     width: 100%; 
@@ -27,6 +40,8 @@
     width: 100%;
     position: absolute;
 }
+
+
 
 .box:hover .img-base{
     display: none;
